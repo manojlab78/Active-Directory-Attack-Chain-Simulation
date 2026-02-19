@@ -1,1 +1,13 @@
 Download and setup Windows Server 2022 as MAIN DC and Windows 10 as a CLIENT
+Now, Windows Server 2022(MAIN DC)
+Assign Ip add : 192.168.100.10 , Subnet mask : 255.255.255.0 , Default gate *Leaved blank* and DNS also same like IP address : 192.168.100.10 of MAIN DC
+(DNS IMPORTANT)
+Install Active Directory Domain Services, DNS, DHCP Server
+After completed download Services
+Add New forest domain in MAINDC to DOMAIN *manoj.com* ]- Company name i used as Manoj
+Created users from Active Directory users and Computers
+user1 - person1
+user2 - helpdesk
+user3 - admin
+Added Windows 10 to domain - *manoj.com*
+Setup Attacker as *Kali Linux* 
